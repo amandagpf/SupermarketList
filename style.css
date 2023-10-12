@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(218, 196, 238);
+    text-align: center;
+    font-size: 22px;
+    color: rgb(182, 32, 223);
+    padding: 20px 0;
+    box-shadow: 1px 1px 10px;
+}
+
+body{
+    background-color: rgb(240, 234, 245);
+}
+
+#programa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-cadastro{
+    display: flex;
+    margin: 2rem 0;
+    gap: 0.25rem;
+}
+
+.nome_produto{
+    width: 30rem;
+}
+
+.preco{
+    width: 10rem;
+    margin-right: 0.5rem;
+}
+
+.nome_produto, .preco{
+    height: 3rem;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 1.25rem;
+    box-shadow: 1px 1px 2px rgb(182, 32, 223);
+}
+
+.botao_cadastrar, .limpar_carrinho{
+    margin-left: 0.25rem;
+    width: 8rem;
+    border-radius: 10px;
+    border-style: none;
+    transition: background-color 0.5s, color 0.5s;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.botao_cadastrar{
+    background-color: rgb(218, 196, 238);
+    color: rgb(182, 32, 223);
+    box-shadow: 1px 1px 2px rgb(182, 32, 223);
+}
+
+.limpar_carrinho{
+    background-color: rgb(243, 167, 167);
+    box-shadow: 1px 1px 2px rgb(218, 58, 58);
+}
+
+.botao_cadastrar:hover{
+    width: 8.2rem;
+    height: 3.2rem;
+    background-color: rgb(182, 32, 223);
+    color: rgb(218, 196, 238);
+}
+
+.limpar_carrinho:hover{
+    width: 8.2rem;
+    height: 3.2rem;
+    background-color: rgb(244, 134, 134);
+   
+}
+
+.lista-produtos{
+    width: 58rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: rgb(69, 68, 68);
+}
+
+.soma-produto{
+    width: 58rem;
+    margin: 1rem 0;
+    color: rgb(182, 32, 223);
+}
