@@ -43,7 +43,7 @@ document.querySelector('button[name=limpar]').addEventListener('click', ()=>{
     items = [];
 
     document.querySelector('.lista-produtos').innerHTML = "";
-    document.querySelector('.soma-produto h1').innerHTML = "";
+    document.querySelector('.soma-produto h1').innerHTML = "Total: R$0,00";
 });
 
 
